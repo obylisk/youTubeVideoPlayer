@@ -1,0 +1,18 @@
+nav {
+  overflow: hidden;
+  background-color: #333;
+  position: fixed;
+  top: 0;
+  width: 100%
+  max-height: 25px;
+}
+
+.right-side-nav-bar {
+  float: right;
+}
+
+#search-bar-text {
+  display: inline-block;
+  max-width: 20%;
+  min-width: 7%;
+}
