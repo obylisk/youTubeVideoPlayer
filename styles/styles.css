@@ -1,18 +1,123 @@
-navbar-fixed {
-  overflow: hidden;
-  color: #333;
-  position: fixed;
-  top: 0;
-  width: 100%
-  max-height: 25px;
+
+/**
+Index:
+
+nav
+navbar
+.right-align
+#search-bar-text
+.container-main
+.video-player
+.video-viewer
+.video-info
+.channel-info
+.related-videos
+.comments
+
+**/
+
+
+nav {
+  background-color: #000;
+  min-height: 56px;
 }
 
-.right-side-nav-bar {
+navbar {
+  overflow: hidden;
+  position: fixed;
+  top: 0;
+  width: 100%;
+}
+
+.right-align {
   float: right;
 }
 
+#youtube-logo {
+  height: 24px;
+  width: 80px;
+}
+
 #search-bar-text {
-  display: inline-block;
   max-width: 20%;
   min-width: 7%;
 }
+
+#user-icon {
+  height: 32px;
+  width: 32px;
+  border-radius: 18px;
+}
+.transparent {
+  background: transparent;
+  border: none;
+}
+
+.container-main {
+  text-align: center;
+  margin-left: 24px;
+}
+
+.container-main div {
+  color: white;
+}
+
+.video-player {
+  padding: 24px 24px 0 0;
+  align-items: center;
+  display: inline-block;
+  background-color: black;
+  width: 576px;
+}
+
+.video-viewer {
+
+  width: inherit;
+}
+
+.video-info {
+  font-family: Arial;
+  background-color: red;
+  text-align: left;
+}
+
+.video-info h1 {
+font-size: 18px;
+font-weight: 450;
+}
+
+.video-info p {
+color: #AAA;
+font-size: 14px;
+}
+
+.channel-info img {
+  align-items: left;
+  display: block;
+  width: 48px;
+  height: 48px;
+  border-radius: 24px;
+}
+
+#subscribe {
+  color: white;
+  background: red;
+  padding: 10px 16px;
+  font-size: 14px;
+  font-family: Arial;
+  font-weight: 550;
+  border-radius: 3px;
+  border: 0 solid;
+}
+
+.related-videos {
+  display: inline-block;
+  background-color: grey;
+}
+
+
+/**
+
+
+.comments
+**/
