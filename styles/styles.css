@@ -2,6 +2,8 @@
 /**
 Index:
 
+body
+a
 nav
 navbar
 .right-align
@@ -9,13 +11,24 @@ navbar
 .container-main
 .video-player
 .video-viewer
-.video-info
+.video-title
 .channel-info
+.video-info
 .related-videos
 .comments
 
 **/
 
+body {
+  font-family: arial;
+}
+
+a {
+  text-decoration: none;
+}
+a:visited {
+  color: blue;
+}
 
 nav {
   background-color: #000;
@@ -66,7 +79,7 @@ navbar {
   padding: 24px 24px 0 0;
   align-items: center;
   display: inline-block;
-  background-color: black;
+  background-color: grey;
   width: 576px;
 }
 
@@ -75,18 +88,18 @@ navbar {
   width: inherit;
 }
 
-.video-info {
-  font-family: Arial;
+.video-title {
+  height: 93px;
   background-color: red;
   text-align: left;
 }
 
-.video-info h1 {
+.video-title h1 {
 font-size: 18px;
 font-weight: 450;
 }
 
-.video-info p {
+.video-title p {
 color: #AAA;
 font-size: 14px;
 }
@@ -99,25 +112,68 @@ font-size: 14px;
   border-radius: 24px;
 }
 
+.channel-info h2 {
+  font-size: 14px;
+}
+
+.channel-info p {
+  font-size: 13px;
+}
+
 #subscribe {
   color: white;
   background: red;
   padding: 10px 16px;
   font-size: 14px;
-  font-family: Arial;
   font-weight: 550;
   border-radius: 3px;
   border: 0 solid;
 }
 
+.video-info p {
+  font-size: 14px;
+}
+
+.video-info a {
+  font-size: 14px;
+  color: white;
+}
+
 .related-videos {
-  display: inline-block;
   background-color: grey;
 }
 
+h3 {
+  text-align: left;
+  font-size: 16px;
+}
 
-/**
+h4 {
+  display: inline;
+  font-size: 14px;
+}
+
+.related-videos {
+text-align: left;
+}
+
+.related-videos span {
+}
 
 
-.comments
-**/
+.related-videos p {
+  display: inline;
+  font-size: 13px;
+}
+
+.related-videos img {
+  text-align: left
+  width: 168px;
+  height: 94px;
+}
+
+.comments {
+  height: 53px;
+  background-color: Orange;
+  font-size: 14px;
+}
