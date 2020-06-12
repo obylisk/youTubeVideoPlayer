@@ -21,6 +21,10 @@ navbar
 
 body {
   font-family: arial;
+  display: grid;
+  grid-template-columns: 1fr 5fr 1fr;
+  grid-template-rows: 1fr 20fr;
+  grid-auto-flow: row;
 }
 
 a {
@@ -31,7 +35,8 @@ a:visited {
 }
 
 nav {
-  background-color: #000;
+  display: grid;
+  background-color: blue;
   min-height: 56px;
 }
 
