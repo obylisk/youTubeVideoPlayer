@@ -1,0 +1,48 @@
+
+.wrapper {
+  display: grid;
+  grid-gap: 20px;
+  grid-template-columns: 1fr;
+}
+
+nav {
+  background: red;
+  display: grid;
+  grid-gap: 5px;
+  grid-template-columns: repeat(4, 100px);
+  grid-auto-flow: column;
+  align-items: center;
+}
+
+.right-align {
+  display: grid;
+  grid-gap: 5px;
+  grid-template-columns: repeat(4, 50px);
+  align-items: center;
+  justify-content: end;
+}
+
+#youtube-logo {
+  height: 24px;
+  width: 80px;
+}
+
+#user-icon {
+  height: 32px;
+  width: 32px;
+  border-radius: 18px;
+}
+
+.container-main {
+  display: grid;
+  grid-template-columns: 1fr 20fr 1fr;
+  grid-auto-flow: row;
+}
+
+.video-player {
+  grid-column: 2 / -2;
+}
+
+.span3 {
+  grid-column: span 3;
+}
